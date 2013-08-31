@@ -1,3 +1,14 @@
 bin
 include
 lib
+etc/*.ini
+*.sqlite
+.installed.cfg
+.mr.developer.cfg
+develop-eggs/
+docs/
+fabfile.py
+local/
+parts/
+src/*
+var/*
