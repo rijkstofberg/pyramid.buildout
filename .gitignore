@@ -5,6 +5,7 @@ etc/*.ini
 *.sqlite
 .installed.cfg
 .mr.developer.cfg
+.coverage
 develop-eggs/
 docs/
 fabfile.py
