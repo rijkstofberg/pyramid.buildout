@@ -17,6 +17,10 @@ pyramid.includes =
 
 sqlalchemy.url = ${buildout:sqlalchemy_url}
 
+# pyramid_mailer config
+mail.host = localhost
+mail.port = 8025
+
 
 ###
 # wsgi server configuration

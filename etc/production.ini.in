@@ -11,6 +11,11 @@ pyramid.default_locale_name = en
 
 sqlalchemy.url = ${buildout:sqlalchemy_url}
 
+# pyramid_mailer config
+mail.host = localhost
+mail.port = 8025
+
+
 #---------- Pipeline Configuration ----------
 [filter:weberror]
 use = egg:WebError#error_catcher
